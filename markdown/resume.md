@@ -4,7 +4,7 @@ Kuo Teng Ding
 -------------------     ----------------------------
 Email                   rapirent@gmail.com
 Github                  [https://github.com/rapirent](https://github.com/rapirnet)
-Cell                    (+886)-958-661-112
+Phone                    (+886)-958-661-112
 -------------------     ----------------------------
 
 Education
@@ -18,31 +18,37 @@ Education
 2014 - 2018
 :    **Bachelor, Computer Science and Information Engineering**
     National Cheng Kung University (Tainan, Taiwan)
-    GPA: 3.88/4.0
-    graduated as third in my class
+    GPA: 3.88/4.3
+:    graduated as third in my class
 
 Experience
 ----------
 
 **Smart Epidemic Prevention (Tainan City)**
-* [news link](https://web.ncku.edu.tw/p/404-1000-173586.php?Lang=zh-tw)
-Developed embedded system, frontend template and experiment
+
+[news link](https://web.ncku.edu.tw/p/404-1000-173586.php?Lang=zh-tw)
+
+Developed embedded system, web frontend template and experiment
 
 **NCKU campus guidance**
-* [App store](https://itunes.apple.com/tw/app/ncku-%E6%A0%A1%E5%9C%92%E5%B0%8E%E8%A6%BD/id1282304357?mt=8)
-* [Google play](https://play.google.com/store/apps/details?id=tw.edu.ncku.csie.smartcampus&hl=zh_TW)
+
+[App store](https://itunes.apple.com/tw/app/ncku-%E6%A0%A1%E5%9C%92%E5%B0%8E%E8%A6%BD/id1282304357?mt=8),
+[Google play](https://play.google.com/store/apps/details?id=tw.edu.ncku.csie.smartcampus&hl=zh_TW)
+
 Developed mobile app backend API and CMS Admin dashboard (PostgreSQL & Python Django)
 
 **Community attendence**
-* Campus Computer & Network Society (Sep, 2016 – Feb, 2017)
+
+* Campus Computer & Network Society @ NCKU (Sep, 2016 – Feb, 2017):
 general affairs
-* Scratch Creative Game Design Camp @ Shengli Elementary School, Tainan (Feb, 2015)
+
+* Scratch Creative Game Design Camp @ Shengli Elementary School, Tainan (Feb, 2015):
 Lecturer as teaching children about Scratch programming
 
 Technical Experience
 --------------------
 
-Skill
+Skills
 :   C (C99), Javascript (ES5), Python (Python 3), Web Backend Development
 
 Self side project
