@@ -1,100 +1,68 @@
-Johnny Coder
+Kuo Teng Ding
 ============
 
-----
-
->  In this style, the resume starts with a blockquote, where
->  you can briefly list your specialties, or include a salient
->  quote. Ending a line with a backslash forces a line break.
-
-----
+-------------------     ----------------------------
+Email                   rapirent@gmail.com
+Github                  [https://github.com/rapirent](https://github.com/rapirnet)
+Cell                    (+886)-958-661-112
+-------------------     ----------------------------
 
 Education
 ---------
 
-2010-2014 (expected)
-:   **PhD, Computer Science**; Awesome University (MyTown)
+2018 - 2020
+:   **Master, Computer Science and Information Engineering**
+    National Taiwan University (Taipei, Taiwan)
+    GPA: 4.2/4.3 (current)
 
-    *Thesis title: Deep Learning Approaches to the Self-Awesomeness
-     Estimation Problem*
-
-2007-2010
-:   **BSc, Computer Science and Electrical Engineering**; University of
-    HomeTown (HomeTown)
-
-    *Minor: Awesomeology*
+2014 - 2018
+:    **Bachelor, Computer Science and Information Engineering**
+    National Cheng Kung University (Tainan, Taiwan)
+    GPA: 3.88/4.0
+    graduated as third in my class
 
 Experience
 ----------
 
-**Your Most Recent Work Experience:**
+**Smart Epidemic Prevention (Tainan City)**
+* [news link](https://web.ncku.edu.tw/p/404-1000-173586.php?Lang=zh-tw)
+Developed embedded system, frontend template and experiment
 
-Short text containing the type of work done, results obtained,
-lessons learned and other remarks. Can also include lists and
-links:
+**NCKU campus guidance**
+* [App store](https://itunes.apple.com/tw/app/ncku-%E6%A0%A1%E5%9C%92%E5%B0%8E%E8%A6%BD/id1282304357?mt=8)
+* [Google play](https://play.google.com/store/apps/details?id=tw.edu.ncku.csie.smartcampus&hl=zh_TW)
+Developed mobile app backend API and CMS Admin dashboard (PostgreSQL & Python Django)
 
-* First item
-
-* Item with [link](http://www.example.com). Links will work both in
-  the html and pdf versions.
-
-**That Other Job You Had**
-
-Also with a short description.
+**Community attendence**
+* Campus Computer & Network Society (Sep, 2016 – Feb, 2017)
+general affairs
+* Scratch Creative Game Design Camp @ Shengli Elementary School, Tainan (Feb, 2015)
+Lecturer as teaching children about Scratch programming
 
 Technical Experience
 --------------------
 
-My Cool Side Project
-:   For items which don't have a clear time ordering, a definition
-    list can be used to have named items.
+Skill
+:   C (C99), Javascript (ES5), Python (Python 3), Web Backend Development
 
-    * These items can also contain lists, but you need to mind the
-      indentation levels in the markdown source.
-    * Second item.
+Self side project
+: **[UVA-upload-bot](https://github.com/rapirent/UVA-upload-bot)**: a telegram bot allows user can upload code to UVA competition system and check weather information
+: **[Shader-implementation](https://github.com/rapirent/Shader-implementation)**: implemet shader with WebGL and GLSL
 
-Open Source
-:   List open source contributions here, perhaps placing emphasis on
-    the project names, for example the **Linux Kernel**, where you
-    implemented multithreading over a long weekend, or **node.js**
-    (with [link](http://nodejs.org)) which was actually totally
-    your idea...
+Open Source Contributions
+:  **[TaiwanStat](https://www.taiwanstat.com/)**: visualization works
 
-Programming Languages
-:   **first-lang:** Here, we have an itemization, where we only want
-    to add descriptions to the first few items, but still want to
-    mention some others together at the end. A format that works well
-    here is a description list where the first few items have their
-    first word emphasized, and the last item contains the final few
-    emphasized terms. Notice the reasonably nice page break in the pdf
-    version, which wouldn't happen if we generated the pdf via html.
 
-:   **second-lang:** Description of your experience with second-lang,
-    perhaps again including a [link] [ref], this time placing the url
-    reference elsewhere in the document to reduce clutter (see source
-    file). 
+Honors & Awards
+---------------
+2017
+:  Honorable Mention @ Taiwan Summer of Code,TSoC 2017
+:  Opensource Contribution Award @ Taiwan Summer of Code,TSoC 2017
 
-:   **obscure-but-impressive-lang:** We both know this one's pushing
-    it.
+2016-2017
+:  Outstanding Student For the Academic Achievement in 2016-2017
 
-:   Basic knowledge of **C**, **x86 assembly**, **forth**, **Common Lisp**
+2014-2015
+:  Outstanding Student For the Academic Achievement in 2014-2015
 
-[ref]: https://github.com/githubuser/superlongprojectname
 
-Extra Section, Call it Whatever You Want
-----------------------------------------
-
-* Human Languages:
-
-     * English (native speaker)
-     * ???
-     * This is what a nested list looks like.
-
-* Random tidbit
-
-* Other sort of impressive-sounding thing you did
-
-----
-
-> <email@example.com> • +00 (0)00 000 0000 • XX years old\
-> address - Mytown, Mycountry
