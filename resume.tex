@@ -1,0 +1,176 @@
+% Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+% Copyright 2014 Mark Szepieniec <http://github.com/mszep>
+% 
+% ConText style for making a resume with pandoc. Inspired by moderncv.
+% 
+% This CSS document is delivered to you under the CC BY-SA 3.0 License.
+% https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+
+\startmode[*mkii]
+  \enableregime[utf-8]  
+  \setupcolors[state=start]
+\stopmode
+
+\setupcolor[hex]
+\definecolor[titlegrey][h=757575]
+\definecolor[sectioncolor][h=397249]
+\definecolor[rulecolor][h=9cb770]
+
+% Enable hyperlinks
+\setupinteraction[state=start, color=sectioncolor]
+
+\setuppapersize [A4][A4]
+\setuplayout    [width=middle, height=middle,
+                 backspace=20mm, cutspace=0mm,
+                 topspace=10mm, bottomspace=20mm,
+                 header=0mm, footer=0mm]
+
+%\setuppagenumbering[location={footer,center}]
+
+\setupbodyfont[11pt, helvetica]
+
+\setupwhitespace[medium]
+
+\setupblackrules[width=31mm, color=rulecolor]
+
+\setuphead[chapter]      [style=\tfd]
+\setuphead[section]      [style=\tfd\bf, color=titlegrey, align=middle]
+\setuphead[subsection]   [style=\tfb\bf, color=sectioncolor, align=right,
+                          before={\leavevmode\blackrule\hspace}]
+\setuphead[subsubsection][style=\bf]
+
+\setuphead[chapter, section, subsection, subsubsection][number=no]
+
+%\setupdescriptions[width=10mm]
+
+\definedescription
+  [description]
+  [headstyle=bold, style=normal,
+   location=hanging, width=18mm, distance=14mm, margin=0cm]
+
+\setupitemize[autointro, packed]    % prevent orphan list intro
+\setupitemize[indentnext=no]
+
+\setupfloat[figure][default={here,nonumber}]
+\setupfloat[table][default={here,nonumber}]
+
+\setuptables[textwidth=max, HL=none]
+\setupxtable[frame=off,option={stretch,width}]
+
+\setupthinrules[width=15em] % width of horizontal rules
+
+\setupdelimitedtext
+  [blockquote]
+  [before={\setupalign[middle]},
+   indentnext=no,
+  ]
+
+
+\starttext
+
+\section[title={Kuo Teng Ding},reference={kuo-teng-ding}]
+
+\startplacetable[location=none]
+\startxtable
+\startxtablebody[body]
+\startxrow
+\startxcell[align=right] Email \stopxcell
+\startxcell[align=right] rapirent@gmail.com \stopxcell
+\stopxrow
+\startxrow
+\startxcell[align=right] Github \stopxcell
+\startxcell[align=right]
+\useURL[url1][https://github.com/rapirnet][][https://github.com/rapirent]\from[url1] \stopxcell
+\stopxrow
+\stopxtablebody
+\startxtablefoot[foot]
+\startxrow
+\startxcell[align=right] Phone \stopxcell
+\startxcell[align=right] (+886)-958-661-112 \stopxcell
+\stopxrow
+\stopxtablefoot
+\stopxtable
+\stopplacetable
+
+\subsection[title={Education},reference={education}]
+
+\startdescription{2018 - 2020}
+  {\bf Master, Computer Science and Information Engineering} National
+  Taiwan University (Taipei, Taiwan) GPA: 4.2/4.3 (current)
+\stopdescription
+
+\startdescription{2014 - 2018}
+  {\bf Bachelor, Computer Science and Information Engineering} National
+  Cheng Kung University (Tainan, Taiwan) GPA: 3.88/4.3
+
+  graduated as third in my class
+\stopdescription
+
+\subsection[title={Experience},reference={experience}]
+
+{\bf Smart Epidemic Prevention (Tainan City)}
+
+\useURL[url2][https://web.ncku.edu.tw/p/404-1000-173586.php?Lang=zh-tw][][news
+link]\from[url2]
+
+Developed embedded system, web frontend template and experiment
+
+{\bf NCKU campus guidance}
+
+\useURL[url3][https://itunes.apple.com/tw/app/ncku-\%E6\%A0\%A1\%E5\%9C\%92\%E5\%B0\%8E\%E8\%A6\%BD/id1282304357?mt=8][][App
+store]\from[url3],
+\useURL[url4][https://play.google.com/store/apps/details?id=tw.edu.ncku.csie.smartcampus&hl=zh_TW][][Google
+play]\from[url4]
+
+Developed mobile app backend API and CMS Admin dashboard (PostgreSQL &
+Python Django)
+
+{\bf Community attendence}
+
+\startitemize
+\item
+  Campus Computer & Network Society @ NCKU (Sep, 2016 -- Feb, 2017):
+  general affairs
+\item
+  Scratch Creative Game Design Camp @ Shengli Elementary School, Tainan
+  (Feb, 2015): Lecturer as teaching children about Scratch programming
+\stopitemize
+
+\subsection[title={Technical
+Experience},reference={technical-experience}]
+
+\startdescription{Skills}
+  C (C99), Javascript (ES5), Python (Python 3), Web Backend Development
+\stopdescription
+
+\startdescription{Self side projects}
+  {\bf \useURL[url5][https://github.com/rapirent/UVA-upload-bot][][UVA-upload-bot]\from[url5]}:
+  a telegram bot allows user can upload code to UVA competition system
+  and check weather information
+
+  {\bf \useURL[url6][https://github.com/rapirent/Shader-implementation][][Shader-implementation]\from[url6]}:
+  implement shader with WebGL and GLSL
+\stopdescription
+
+\startdescription{Open Source Contributions}
+  {\bf \useURL[url7][https://www.taiwanstat.com/][][TaiwanStat]\from[url7]}:
+  visualization works
+\stopdescription
+
+\subsection[title={Honors & Awards},reference={honors-awards}]
+
+\startdescription{2017}
+  Honorable Mention @ Taiwan Summer of Code,TSoC 2017
+
+  Opensource Contribution Award @ Taiwan Summer of Code,TSoC 2017
+\stopdescription
+
+\startdescription{2016-2017}
+  Outstanding Student For the Academic Achievement in 2016-2017
+\stopdescription
+
+\startdescription{2014-2015}
+  Outstanding Student For the Academic Achievement in 2014-2015
+\stopdescription
+
+\stoptext
