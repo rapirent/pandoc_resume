@@ -2,6 +2,8 @@ OUT_DIR=output
 IN_DIR=markdown
 STYLES_DIR=styles
 STYLE=chmduquesne
+GITHUB_PAGES_BRANCH=gh-pages
+OUTPUTDIR=output
 
 all: html pdf docx rtf
 
@@ -56,3 +58,7 @@ version:
 
 clean:
 	rm -f $(OUT_DIR)/*
+
+github:
+	ghp-import -m "Generate Resumes" -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
+	git push origin $(GITHUB_PAGES_BRANCH):$(GITHUB_PAGES_BRANCH)

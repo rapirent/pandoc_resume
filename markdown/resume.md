@@ -51,9 +51,9 @@ Technical Experience
 Skills
 :   C (C99), Javascript (ES5), Python (Python 3), Web Backend Development
 
-Self side project
+Self side projects
 : **[UVA-upload-bot](https://github.com/rapirent/UVA-upload-bot)**: a telegram bot allows user can upload code to UVA competition system and check weather information
-: **[Shader-implementation](https://github.com/rapirent/Shader-implementation)**: implemet shader with WebGL and GLSL
+: **[Shader-implementation](https://github.com/rapirent/Shader-implementation)**: implement shader with WebGL and GLSL
 
 Open Source Contributions
 :  **[TaiwanStat](https://www.taiwanstat.com/)**: visualization works
